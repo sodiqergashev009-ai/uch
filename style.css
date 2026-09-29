@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: blueviolet;
+    margin-top: 50px;
+    margin-left: 500px;
+    height: 100px;
+    width: 100px;
+}
+.card:hover{
+    box-shadow: 0 0 10px black;
+}
+.card image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
